@@ -8,3 +8,23 @@ The Quran digital text for this utility was copied from [Tanzil.net](http://tanz
 
 ## The Digest Method
 A verse is re-encoded into a 16-bit Unicode uppercase hexadecimal string with no CR/LF. A double [SHA-256](https://en.wikipedia.org/wiki/SHA-2) is applied to the string to produce the verse hash. On the other hand, the Merkle root of the entire Quran is produced from the hashes of all verses. Every Merkle node is produced with double SHA-256. Please refer to the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) algorithm for detail.
+
+## How-to
+This utility requires PHP 7 [CLI](https://en.wikipedia.org/wiki/Command-line_interface).
+
+Clone or download this repository:
+```
+$ git clone https://github.com/chelahmy/quran-digest.git
+$ cd quran-digest/utils
+```
+
+Build the verse index once, and every time the Quran digital text is corrected:
+```
+$ php indexer.php
+```
+
+Print out a verse into the terminal:
+```
+$ php verse.php
+```
+
