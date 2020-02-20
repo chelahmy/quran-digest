@@ -30,4 +30,4 @@ $ php verse.php
 You may use [BiCon](https://github.com/behdad/bicon) to enable bi-directional terminal on Linux. BiCon depends on **libfribidi0** and **libfribidi-dev**. 
 
 ## The PHP Library
-The PHP scripts of this utility are managed into various files that form a re-useable library which can be embedded into any application or web application. The scripts are the documents.
+The PHP scripts for this utility were designed to be re-useable, which can be embedded into any application or web application. The scripts are the documents.
