@@ -83,7 +83,7 @@ function hashVerse($words) {
 	for ($i = 0; $i < $len; $i++) {
 		$vhex .= sprintf('%04X', $words[$i]);
 	}
-	$hash = hash('sha256', hash('sha256', $vhex));
+	$hash = hash('sha256', hex2bin(hash('sha256', hex2bin($vhex))));
 	return ["data" => $vhex, "hash" => $hash];
 }
 
@@ -105,7 +105,7 @@ function generateMerkleRoot() {
 				$hh = $hashes[$i] . $hashes[$i + 1];
 			else
 				$hh = $hashes[$i] . $hashes[$i];
-			$ths[] = hash('sha256', hash('sha256', $hh));
+			$ths[] = hash('sha256', hex2bin(hash('sha256', hex2bin($hh))));
 		}
 		$hashes = $ths;
 	}
