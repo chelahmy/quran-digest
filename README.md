@@ -2,8 +2,8 @@
 A utility to digest digital Quran based on the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) algorithm popularly used to hash transactions in the Bitcoin blockchain. It produces a 256-bit hash which is also known as Merkle root. As long as the digital Quran text has not been altered the hash will remain the same. Altering even a single letter in the text will strikingly change the hash. It is a good practice to digest the digital Quran every time it is referred to, and compare the hash with the original one. The following is the current digest/hash or the Merkle root of the digital Quran text:
 ### 1785690e5cf8c23f5a4bb40ca28806f422ef49053f005d61e7dd519f63068b07
 The hash above may get hacked. Hence, we inscribed it in the Bitcoin blockchain for ethernal preservation. The Bitcoin blockchain is evolving beyond cryptocurrency and is becoming the platform of digital archiving. The following is the Bitcoin transaction id containing the digital Quran digest:
-### 1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e
-The transaction can be viewed in [sochain.com](https://sochain.com/tx/BTC/1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e). The hash is attached to the hexadecimal encoded string initial "Secure Digital Quran v1.0.0 https://qauth.org" in the output 1 script which begins with OP_RETURN.
+### [1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e](https://sochain.com/tx/BTC/1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e)
+The transaction can be viewed in [sochain.com](https://sochain.com/tx/BTC/1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e). The hash is attached to the end of a hexadecimal encoded string initial "Secure Digital Quran v1.0.0 https://qauth.org" in the transaction output 1 script which begins with OP_RETURN.
 
 
 ## The Quran and the Utility
