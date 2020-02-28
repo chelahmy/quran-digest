@@ -6,7 +6,7 @@ It is a fixed-length hexadecimal encoded 256-bit hash as the result of double [S
 ## An Extreme Step Further
 The hash above may get hacked. Hence, we inscribed the digital Quran digest in the Bitcoin blockchain for eternal preservation. The Bitcoin blockchain is evolving beyond cryptocurrency and is becoming a platform of digital archiving. No hacker has ever managed to alter even a bit of the Bitcoin blockchain since its inception in 2009. The following is the Bitcoin transaction id containing the digital Quran digest:
 ### [1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e](https://sochain.com/tx/BTC/1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e)
-The transaction can be viewed in [sochain.com](https://sochain.com/tx/BTC/1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e) and many other similar services. The hash is attached to the end of a hexadecimal encoded initial "Secure Digital Quran v1.0.0 https://qauth.org - " in the [OP_RETURN](https://github.com/chelahmy/php-OP_RETURN) script of the transaction output 1.
+The transaction can be viewed at [sochain.com](https://sochain.com/tx/BTC/1ed1bc36999eacadcbd79e834c652ea88de7b67f4bf1661e17ce3fcfda4b644e) and many other similar services. The hash is attached to the end of a hexadecimal encoded initial "Secure Digital Quran v1.0.0 https://qauth.org - " in the [OP_RETURN](https://github.com/chelahmy/php-OP_RETURN) script of the transaction output 1.
 
 
 ## The Quran and the Utility
